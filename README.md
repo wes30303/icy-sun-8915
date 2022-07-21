@@ -27,6 +27,7 @@ We are creating an application to track departments, employees and tickets.
 
 You will need to create all the migrations
 
+```
 Story 1
 Department Index
 
@@ -34,7 +35,8 @@ As a user,
 When I visit the Department index page,
 I see each department's name and floor
 And underneath each department, I can see the names of all of its employees
-
+```
+```
 Story 2
 Employee Show
 
@@ -43,8 +45,8 @@ When I visit the Employee show page,
 I see the employee's name, department
 and a list of all of their tickets from oldest to youngest.
 I also see the oldest ticket assigned to the employee listed separately
-
-
+```
+```
 Story 3
 
 As a user,
@@ -56,9 +58,9 @@ and I click submit
 Then I am redirected back to that employees show page
 and i see the ticket's subject now listed
 (you do not have to test for sad path, for example if the id does not match an existing ticket
-
+```
 ## Extension
-
+```
 Extension
 Best Friends
 
@@ -66,3 +68,4 @@ As a user,
 When I visit an employee's show page
 I see that employees name and level
 and I see a unique list of all the other employees that this employee shares tickets with
+```
